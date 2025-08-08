@@ -1,0 +1,70 @@
+---
+import { events } from "../../data/events.json";
+---
+
+<section class="relative overflow-hidden">
+  <div class="relative px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:py-24">
+    <div class="text-left sm:text-center">
+      <p class="text-4xl font-semibold font-display text-blue-950 sm:text-6xl">
+        Join us at our<span class="lg:block"> upcoming events</span>
+      </p>
+      <p class="mt-4 text-slate-600 text-base max-w-2xl mx-auto">
+        A unique experience in exploring brand & identity design
+      </p>
+    </div>
+    <ul class="flex flex-col mt-12 list-none gap-2" role="list">
+      {
+        events.map((template) => (
+          <>
+            <li class="bg-green-100 p-8 rounded-3xl gap-12 flex lg:flex-row flex-col h-full justify-between">
+              <div class="flex flex-col gap-8">
+                <div class="inline-flex justify-between items-start gap-4 w-full">
+                  <p class="text-lg  font-display text-blue-950 lg:text-xl">
+                    {template.title}
+                  </p>
+                </div>
+                <div>
+                  <a
+                    href={template.url}
+                    class="items-center inline-flex focus:outline-disc bg-green-50 duration-200 focus:ring-2 focus:ring-green-60 focus:ring-offset-2 font-medium lg:w-auto h-12 hover:bg-green-100 gap-3 justify-center px-6 py-1 rounded-full text-green-600 text-center text-sm w-auto">
+                    Enroll today
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-circle-chevron-right"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.25"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                      <path d="M11 9l3 3l-3 3" />
+                      <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0z" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class=" flex flex-col gap-8">
+                <div class="flex flex-col    gap-2 w-full">
+                  <div>
+                    <span class="inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-800  ">
+                      {template.time}
+                    </span>
+                  </div>
+                  <div>
+                    <p class="inline-flex gap-2 items-center rounded-md  text-xs text-blue-950">
+                      {template.address}
+                    </p>
+                  </div>
+                </div>
+                <p class=" text-base text-blue-950">{template.description}</p>
+              </div>
+            </li>
+          </>
+        ))
+      }
+    </ul>
+  </div>
+</section>

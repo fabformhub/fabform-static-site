@@ -1,0 +1,205 @@
+<section>
+  <div class="relative px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:py-24">
+    <div class="p-2 rounded-3xl bg-gradient-to-t from-white/20">
+      <h2 class="text-4xl font-semibold font-display text-blue-950 sm:text-6xl">
+        Customize Consent Preferences
+      </h2>
+
+      <p class="max-w-xl mt-4 text-slate-500">
+        We use first-party and third-party cookies to provide a better
+        experience, tailor and measure ads, analyze traffic, and personalize
+        content. See Section 4 of our
+        <a
+          href="/infopages/privacy"
+          class="text-blue-950 underline duration-200 hover:text-slate-500">
+          Privacy Policy</a
+        > to learn more.
+      </p>
+      <div class="flex flex-col gap-2 mt-12 lg:mt-24">
+        <div
+          class="flex items-center justify-between p-4 lg:p-8 bg-green-100 rounded-3xl">
+          <span class="flex flex-col flex-grow">
+            <span
+              class="text-lg text-blue-950 font-display lg:text-4xl"
+              id="availability-label">Necesary</span
+            >
+            <span class="mt-2 text-sm text-slate-500" id="#">
+              Necessary cookies are required for this website to function and
+              cannot be disabled.
+            </span>
+          </span>
+
+          <!-- Toggle -->
+          <div
+            x-data="{ value: false }"
+            class="flex items-center justify-center"
+            x-id="['toggle-label']">
+            <input type="hidden" name="sendNotifications" :value="value" />
+
+            <!-- Label -->
+            <label
+              @click="$refs.toggle.click(); $refs.toggle.focus()"
+              :id="$id('toggle-label')"
+              class="sr-only">
+              Toggle
+            </label>
+
+            <!-- Button -->
+            <button
+              x-ref="toggle"
+              @click="value = ! value"
+              type="button"
+              role="switch"
+              :aria-checked="value"
+              :aria-labelledby="$id('toggle-label')"
+              :class="value ? 'bg-green-950 ' : 'bg-green-800'"
+              class="relative inline-flex py-1 ml-4 transition rounded-full w-14">
+              <span
+                :class="value ? 'translate-x-7' : 'translate-x-1'"
+                class="w-6 h-6 transition bg-white rounded-full shadow-md"
+                aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-between p-4 lg:p-8 bg-green-100 rounded-3xl">
+          <span class="flex flex-col flex-grow">
+            <span
+              class="text-lg text-blue-950 font-display lg:text-4xl"
+              id="availability-label">Functional</span
+            >
+            <span class="mt-2 text-sm text-slate-500" id="#">
+              Functional cookies enable this website to provide enhanced
+              functionality and personalization.
+            </span>
+          </span>
+
+          <!-- Toggle -->
+          <div
+            x-data="{ value: false }"
+            class="flex items-center justify-center"
+            x-id="['toggle-label']">
+            <input type="hidden" name="sendNotifications" :value="value" />
+
+            <!-- Label -->
+            <label
+              @click="$refs.toggle.click(); $refs.toggle.focus()"
+              :id="$id('toggle-label')"
+              class="sr-only">
+              Toggle
+            </label>
+
+            <!-- Button -->
+            <button
+              x-ref="toggle"
+              @click="value = ! value"
+              type="button"
+              role="switch"
+              :aria-checked="value"
+              :aria-labelledby="$id('toggle-label')"
+              :class="value ? 'bg-green-950 ' : 'bg-green-800'"
+              class="relative inline-flex py-1 ml-4 transition rounded-full w-14">
+              <span
+                :class="value ? 'translate-x-7' : 'translate-x-1'"
+                class="w-6 h-6 transition bg-white rounded-full shadow-md"
+                aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-between p-4 lg:p-8 bg-green-100 rounded-3xl">
+          <span class="flex flex-col flex-grow">
+            <span
+              class="text-lg text-blue-950 font-display lg:text-4xl"
+              id="availability-label">Analytics</span
+            >
+            <span class="mt-2 text-sm text-slate-500" id="#">
+              Analytics cookies are used to understand how visitors interact
+              with our website, such as by counting visits to pages and
+              identifying sources of traffic.
+            </span>
+          </span>
+
+          <!-- Toggle -->
+          <div
+            x-data="{ value: false }"
+            class="flex items-center justify-center"
+            x-id="['toggle-label']">
+            <input type="hidden" name="sendNotifications" :value="value" />
+
+            <!-- Label -->
+            <label
+              @click="$refs.toggle.click(); $refs.toggle.focus()"
+              :id="$id('toggle-label')"
+              class="sr-only">
+              Toggle
+            </label>
+
+            <!-- Button -->
+            <button
+              x-ref="toggle"
+              @click="value = ! value"
+              type="button"
+              role="switch"
+              :aria-checked="value"
+              :aria-labelledby="$id('toggle-label')"
+              :class="value ? 'bg-green-950 ' : 'bg-green-800'"
+              class="relative inline-flex py-1 ml-4 transition rounded-full w-14">
+              <span
+                :class="value ? 'translate-x-7' : 'translate-x-1'"
+                class="w-6 h-6 transition bg-white rounded-full shadow-md"
+                aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex items-center justify-between p-4 lg:p-8 bg-green-100 rounded-3xl">
+          <span class="flex flex-col flex-grow">
+            <span
+              class="text-lg text-blue-950 font-display lg:text-4xl"
+              id="availability-label">Marketing and Advertising</span
+            >
+            <span class="mt-2 text-sm text-slate-500" id="#">
+              Marketing cookies help to deliver advertising that's more relevant
+              to you. They may also be used to limit the number of times you see
+              an advertisement and measure the effectiveness of advertising
+              campaigns.
+            </span>
+          </span>
+
+          <!-- Toggle -->
+          <div
+            x-data="{ value: false }"
+            class="flex items-center justify-center"
+            x-id="['toggle-label']">
+            <input type="hidden" name="sendNotifications" :value="value" />
+
+            <!-- Label -->
+            <label
+              @click="$refs.toggle.click(); $refs.toggle.focus()"
+              :id="$id('toggle-label')"
+              class="sr-only">
+              Toggle
+            </label>
+
+            <!-- Button -->
+            <button
+              x-ref="toggle"
+              @click="value = ! value"
+              type="button"
+              role="switch"
+              :aria-checked="value"
+              :aria-labelledby="$id('toggle-label')"
+              :class="value ? 'bg-green-950 ' : 'bg-green-800'"
+              class="relative inline-flex py-1 ml-4 transition rounded-full w-14">
+              <span
+                :class="value ? 'translate-x-7' : 'translate-x-1'"
+                class="w-6 h-6 transition bg-white rounded-full shadow-md"
+                aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

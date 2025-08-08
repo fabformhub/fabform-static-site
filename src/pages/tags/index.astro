@@ -1,0 +1,33 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+const allPosts = await getCollection("a");
+const tags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
+const pageTitle = "Tag Index";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <section>
+    <div
+      class="relative px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:py-24">
+      <div class="bg-green-100 p-8 lg:p-20 text-center rounded-3xl">
+        <h1
+          class="text-3xl font-semibold font-display text-blue-950 lg:text-7xl">
+          All tags for Form Backend Service
+        </h1>
+         <p class="max-w-xl mt-4 text-slate-500 mx-auto">
+          The Form Backend Service That Developers Love.
+          </p>
+        </div>
+      <ol role="list" class="flex flex-wrap gap-3 mt-12">
+        {
+          tags.map((tag) => (
+            <li class="rinline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ">
+              <a href={`/tags/${tag}`}>{tag}</a>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+  </section>
+</BaseLayout>

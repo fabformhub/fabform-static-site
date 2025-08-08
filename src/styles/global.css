@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1, h2, h3, h4, h5, h6, p, a, strong, em, span {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility
+}
+
+:root {
+  --astro-code-color-text: #231c47  ;
+  --astro-code-color-background: #f8fafc;
+  --astro-code-token-constant: #888888;
+  --astro-code-token-string: #79a371;
+  --astro-code-token-comment: #333333;
+  --astro-code-token-keyword:#b7749f;
+  --astro-code-token-parameter: #ffffff;
+  --astro-code-token-function: #7267e7;
+  --astro-code-token-string-expression: #d39b3f;
+  --astro-code-token-punctuation: #d7b1cb;
+  --astro-code-token-link: #79a371;
+}
+
+
+.prose-styles {
+  @apply prose prose-blockquote:border-l-white prose-a:text-slate-500 hover:prose-a:text-blue-950 prose-headings:font-normal prose-headings:text-blue-950 prose-li:marker:text-slate-500 text-slate-500 prose-code:text-blue-950 prose-blockquote:text-blue-950/70 max-w-3xl  prose-headings:font-display prose-pre:ring-1 prose-pre:ring-white/10  prose-strong:text-blue-950;
+}

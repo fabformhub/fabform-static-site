@@ -1,0 +1,92 @@
+---
+import { courses } from "../../data/courses.json";
+---
+
+<section>
+  <div class="relative px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:py-24">
+    <div class="max-w-3xl mx-auto">
+      <div class="flex flex-row gap-3 items-center text-left mt-12">
+        <div>
+          <img
+            class="inline-block w-16 border h-16 rounded-full shrink-0"
+            src="/avatars/head1.svg"
+            alt="I'm amazed by the quality of courses offered on this platform. The instructors are experts in their fields, and the interactive learning approach keeps me engaged. I've gained skills I can immediately apply to my career"
+          />
+        </div>
+        <div>
+          <p class="text-sm font-display text-blue-950">Roberta Johnson</p>
+          <p class="text-slate-600">Digital Marketing</p>
+        </div>
+      </div>
+      <div class="prose-styles mx-auto mt-12">
+        <p>
+          Roberta Johnson is a seasoned marketing professional and creative
+          enthusiast with a passion for helping individuals master the art of
+          brand identity design. With over a decade of experience in the
+          marketing field, Roberta has worked with diverse brands, both
+          established and emerging, to develop visually compelling and
+          strategically aligned brand identities.
+        </p>
+        <p>
+          Connect with Roberta on LinkedIn to stay updated on her latest
+          insights and industry contributions.
+        </p>
+      </div>
+      <div class="mt-12">
+        <p class="text-lg font-display text-blue-950 lg:text-xl">Skills</p>
+        <ul
+          class="list-none text-slate-500 gap-2 justify-center mt-4 grid grid-cols-1 md:grid-cols-2">
+          <li class="inline-flex items-center gap-2">
+            ⏤ Expertise in Branding and Design
+          </li>
+          <li class="inline-flex items-center gap-2">⏤ Industry Experience</li>
+          <li class="inline-flex items-center gap-2">
+            ⏤ Effective Communication
+          </li>
+          <li class="inline-flex items-center gap-2">
+            ⏤ Curriculum Development
+          </li>
+        </ul>
+      </div>
+      <div class="mt-12">
+        <p class="text-lg font-display text-blue-950 lg:text-xl">Courses</p>
+      </div>
+    </div>
+    <ul
+      class="grid grid-cols-1 mt-12 list-none md:grid-cols-2 gap-2 relative p-2 rounded-3xl bg-gradient-to-t from-white/20"
+      role="list">
+      {
+        courses.slice(0, 2).map((template) => (
+          <>
+            <li class="bg-green-50      p-8 rounded-3xl    flex flex-col h-full justify-between">
+              <div>
+                <div class="flex flex-col items-center gap-4 w-full">
+                  <div class="inline-flex items-center gap-4 justify-center">
+                    <p class="text-lg  font-display text-green-500 lg:text-xl">
+                      {template.title}
+                    </p>
+                    <p class="text-blue-950 text-xl font-display">
+                      {template.pricing}
+                    </p>
+                  </div>
+                  <p class="mt-4 text-sm text-green-900 text-center">
+                    {template.description}
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col mt-4 justify-between items-center gap-4 w-full pt-2">
+                <div>
+                  <a
+                    href={template.url}
+                    class="items-center inline-flex w-full focus:outline-disc bg-green-50 duration-200 focus:ring-2 focus:ring-green-60 focus:ring-offset-2 font-medium lg:w-auto h-8 hover:bg-green-100 justify-center px-6 py-1 rounded-full text-green-600 text-center text-xs ">
+                    Enroll Now &nbsp; &rarr;
+                  </a>
+                </div>
+              </div>
+            </li>
+          </>
+        ))
+      }
+    </ul>
+  </div>
+</section>

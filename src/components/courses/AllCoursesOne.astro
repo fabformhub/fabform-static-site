@@ -1,0 +1,61 @@
+---
+import { courses } from "../../data/courses.json";
+---
+
+<section>
+  <div class="relative px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:py-24">
+    <div class="max-w-2xl">
+      <div class="text-left">
+        <h1
+          class="text-4xl font-semibold font-display text-blue-950 sm:text-6xl">
+          Explore our diverse <span class="lg:block">course offerings</span>
+        </h1>
+        <p class="mt-4 text-slate-600 text-base max-w-2xl">
+          Embark on a learning journey tailored to your interests and goals
+        </p>
+      </div>
+    </div>
+    <ul
+      class="grid grid-cols-1 mt-12 list-none md:grid-cols-2 lg:grid-cols-3 gap-2 lg:mt-24 relative p-2 rounded-3xl bg-gradient-to-t from-white/20"
+      role="list">
+      {
+        courses.map((template) => (
+          <>
+            <li class="bg-green-50      p-8 rounded-3xl    flex flex-col h-full justify-between">
+              <div>
+                <div class="flex flex-col items-center gap-4 w-full">
+                  <img
+                    class="inline-block w-24 h-24 rounded-full    shrink-0"
+                    src={template.avatar}
+                    alt={template.description}
+                  />
+
+                  <div class="inline-flex items-center gap-4 justify-center">
+                    <p class="text-lg  font-display text-green-500 lg:text-xl">
+                      {template.title}
+                    </p>
+                    <p class="text-blue-950 text-xl font-display">
+                      {template.pricing}
+                    </p>
+                  </div>
+                  <p class="mt-4 text-sm text-green-900 text-center">
+                    {template.description}
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col mt-4 justify-between items-center gap-4 w-full pt-2">
+                <div>
+                  <a
+                    href={template.url}
+                    class="items-center inline-flex w-full focus:outline-disc bg-green-50 duration-200 focus:ring-2 focus:ring-green-60 focus:ring-offset-2 font-medium lg:w-auto h-8 hover:bg-green-100 justify-center px-6 py-1 rounded-full text-green-600 text-center text-xs ">
+                    Enroll Now &nbsp; &rarr;
+                  </a>
+                </div>
+              </div>
+            </li>
+          </>
+        ))
+      }
+    </ul>
+  </div>
+</section>

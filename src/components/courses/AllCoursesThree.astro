@@ -1,0 +1,80 @@
+---
+import { courses } from "../../data/courses.json";
+---
+
+<section>
+  <div class="relative px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:py-24">
+    <div class="text-center max-w-xl mx-auto">
+      <h1 class="text-4xl font-semibold font-display text-blue-950 lg:text-6xl">
+        Explore our diverse course offerings
+      </h1>
+      <p class="max-w-xs mt-4 text-slate-500 mx-auto">
+        Embark on a learning journey tailored to your interests and goals
+      </p>
+      <div class="flex flex-wrap items-center justify-center mt-8">
+        <div>
+          <label class="sr-only" for="search">Quick search</label><div
+            class="relative flex items-center">
+            <input
+              class="w-full h-10 px-4 py-2 placeholder-slate-300 duration-200 ring-1 ring-inset border-transparent ring-white/10 rounded-lg appearance-none bg-slate-50 focus:border-slate-300 focus:outline-none focus:ring-slate-300 sm:text-sm text-blue-950 lock pr-14"
+              id="search"
+              name="search"
+              type="text"
+              placeholder="Search..."
+            /><div class="flex absolute inset-y-0 pr-1.5 py-1.5 right-0">
+              <kbd
+                class="items-center inline-flex border-slate-200 font-sans px-0.5 rounded text-blue-950 text-xs"
+                >⌘K</kbd
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="grid grid-cols-1 list-none md:grid-cols-2 gap-2 mt-12 lg:mt-24"
+      role="list">
+      {
+        courses.slice(0, 8).map((template) => (
+          <>
+            <div>
+              <div class="bg-blue-50      p-8 rounded-3xl  h-full justify-between relative flex flex-col items-start  ">
+                <div>
+                  <div class="flex flex-col items-center gap-4 w-full">
+                    <img
+                      class="inline-block w-24 h-24 rounded-full    shrink-0"
+                      src={template.avatar}
+                      alt={template.description}
+                    />
+
+                    <div class="inline-flex items-center gap-4 justify-center">
+                      <p class="text-lg  font-display text-blue-500 lg:text-xl">
+                        {template.title}
+                      </p>
+                      <p class="text-blue-950 text-xl font-display">
+                        {template.pricing}
+                      </p>
+                    </div>
+                    <p class="mt-4 text-sm text-blue-900 text-center">
+                      {template.description}
+                    </p>
+                  </div>
+                </div>
+                <div class="flex flex-col mt-4 justify-between items-center gap-4 w-full pt-2">
+                  <div>
+                    <a
+                      href={template.url}
+                      class="items-center inline-flex w-full focus:outline-disc bg-blue-50 duration-200 focus:ring-2 focus:ring-blue-60 focus:ring-offset-2 font-medium lg:w-auto h-8 hover:bg-blue-100 justify-center px-6 py-1 rounded-full text-blue-600 text-center text-xs ">
+                      Enroll Now &nbsp; &rarr;
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </>
+        ))
+      }
+    </div>
+  </div>
+</section>

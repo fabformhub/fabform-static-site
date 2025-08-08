@@ -1,0 +1,73 @@
+---
+import { courses } from "../../data/courses.json";
+---
+
+<section>
+  <div class="relative px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:py-24">
+    <div class="text-center">
+      <h1 class="text-4xl font-semibold font-display text-blue-950 sm:text-6xl">
+        Explore our diverse<span class="lg:block"> course offerings</span>
+      </h1>
+      <p class="max-w-xs mx-auto mt-4 text-slate-500">
+        Embark on a learning journey tailored to your interests and goals
+      </p>
+      <div class="flex flex-wrap items-center justify-center mt-8">
+        <div>
+          <label class="sr-only" for="search">Quick search</label><div
+            class="relative flex items-center">
+            <input
+              class="w-full h-10 px-4 py-2 placeholder-slate-300 duration-200 ring-1 ring-inset border-transparent ring-white/10 rounded-lg appearance-none bg-slate-50 focus:border-slate-300 focus:outline-none focus:ring-slate-300 sm:text-sm text-blue-950 lock pr-14"
+              id="search"
+              name="search"
+              type="text"
+            /><div class="flex absolute inset-y-0 pr-1.5 py-1.5 right-0">
+              <kbd
+                class="items-center inline-flex border-slate-200 font-sans px-0.5 rounded text-blue-950 text-xs"
+                >⌘K</kbd
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ul
+      class="grid grid-cols-1 relative md:grid-cols-2 mt-12 list-none gap-2 p-2 rounded-3xl bg-gradient-to-t from-white/20"
+      role="list">
+      {
+        courses.slice(0, 8).map((template) => (
+          <>
+            <li class="bg-green-50      p-8 rounded-3xl  flex flex-col h-full justify-between">
+              <div>
+                <div class="flex flex-col items-center">
+                  <p class="text-blue-950 text-xl font-display lg:text-9xl">
+                    {template.pricing}
+                  </p>
+                  <div class=" mt-8">
+                    <p class="text-lg  font-display text-green-500 lg:text-3xl ">
+                      {template.title}
+                    </p>
+                  </div>
+                  <span class="inline-flex mt-2 items-center rounded-full bg-white px-2 py-1 text-xs font-medium text-green-500 ">
+                    {template.tag}
+                  </span>
+                </div>
+
+                <p class="mt-8 text-base text-green-900 lg:text-2xl">
+                  {template.description}
+                </p>
+              </div>
+              <div class="mt-12">
+                <a
+                  href={template.url}
+                  class="items-center inline-flex w-full focus:outline-disc bg-white duration-500 focus:ring-2 focus:ring-green-600 focus:ring-offset-2 font-medium lg:w-auto h-12 hover:bg-green-600 justify-center px-6 py-1 rounded-full  text-green-500 text-center text-sm  ">
+                  Enroll Now
+                </a>
+              </div>
+            </li>
+          </>
+        ))
+      }
+    </ul>
+  </div>
+</section>

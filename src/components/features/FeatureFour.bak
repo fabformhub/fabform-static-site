@@ -1,0 +1,60 @@
+<section>
+  <div class="px-8 py-12 mx-auto md:px-12 lg:px-32 max-w-7xl lg:py-24">
+    <div class="max-w-3xl mx-auto">
+      <div>
+        <p
+          class="text-4xl font-semibold font-display text-blue-950 lg:text-8xl">
+          All the features developers love and need. 
+        </p>
+        <p class="text-slate-500 mt-4 max-w-xl">Fabform offers you all the best features that you would expect in a modern form backend service. we've thoughtfully crafted the best way to integrate powerful features into your form within minutes.</p>
+        <div class="max-w-3xl mx-auto mt-12">
+          <ul
+            class="prose-styles list-disc grid grid-cols-1 lg:grid-cols-2 gap-x-12">
+            <li>
+              <strong class="font-display">File Upload </strong>
+             We have done the heavy lifting to make uploading files to your HTML &lt;form&gt; a breeze.
+            </li>
+            <li>
+              <strong class="font-display">Auto Responses </strong>
+Send auto-responses to your form respondents. Use our extensible templates to send customized
+response messages. Set a reply_to email address so the respondent can easly reach your inbox.
+            </li>
+<li>
+              <strong class="font-display">Email Notifications </strong>
+Receive email notifications every time your form gets a new submission. You can also decorate email notifications with data from the form submission. The reply_to email is automatically set to the submitters email to keep the conversation flowing.   
+            </li>
+                        <li>
+              <strong class="font-display">Webhooks</strong>
+              Send your submission data to external sources using webhooks. Whenever a new submission is posted to your form endpoint, the submission data in JSON format will be posted to the endpoint URL you provided automatically.
+            </li>
+            <li>
+              <strong class="font-display">Redirections </strong>
+              After submitting a form, the user will be redirected to the FabForm Thank You page. There is also the option to set a custom URL and redirect the form submitter to that page instead.
+            </li>
+            <li>
+              <strong class="font-display">Data Export </strong>
+              Export your form data to a CSV file. A comma-separated values file, which allows data to be saved in a tabular format. This can prove handy if you need to import your form data into third party programs. 
+            </li>
+            <li>
+              <strong class="font-display">Spam Protection </strong>
+              We all hate spam. FabForm has a few tricks up its sleeves to keep your inbox nice and clean to fight off and reject all unwanted form spam.   
+            </li>
+
+            <li>
+              <strong class="font-display">Captcha </strong>
+              Display an optional form captcha before each form submission. This provides an extra layer of security. You can be certain the form submission is made by a human and not filled out by a bot. 
+            </li>
+            <li>
+              <strong class="font-display">Custom Email Templates </strong>
+              Create a customized template from where you can send personalized auto-responses and email notifications. Easly merge in form field data to your messages using this notation. i.e. <code is:raw> Dear {firstName} ...</code>
+            </li>
+            <li>
+              <strong class="font-display">3rd party integrations </strong>
+With our direct integrations, we'll get your data where it needs to be - no Zapier required.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
