@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="240"
+   height="177"
+   viewBox="0 0 240 177"
+   fill="none"
+   version="1.1"
+   id="svg2754"
+   sodipodi:docname="widget3.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2756"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="4.3728814"
+     inkscape:cx="119.60077"
+     inkscape:cy="60.715116"
+     inkscape:window-width="1396"
+     inkscape:window-height="700"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2754" />
+  <rect
+     width="240"
+     height="177"
+     rx="12"
+     fill="#EFF7E2"
+     id="rect2702"
+     style="fill:#eff7e2;fill-opacity:1" />
+  <ellipse
+     cx="42"
+     cy="50"
+     rx="24"
+     ry="25"
+     fill="white"
+     id="ellipse2739" />
+  <path
+     d="m 48.113948,58.297572 c -0.633222,0 -1.145699,-0.483751 -1.145699,-1.081477 0,-0.597725 0.512477,-1.081478 1.145699,-1.081478 2.524831,0 4.580116,-1.940075 4.580116,-4.323379 0,-2.269331 -1.88088,-4.161283 -4.279606,-4.308183 l -0.676151,-0.03799 -0.287095,-0.574932 c -1.132287,-2.261732 -3.568574,-3.723121 -6.206102,-3.723121 -2.637527,0 -5.073818,1.461389 -6.206104,3.723121 l -0.287097,0.574932 -0.673468,0.04052 c -2.401409,0.1469 -4.279609,2.038852 -4.279609,4.308182 0,2.383305 2.055286,4.323379 4.580122,4.323379 0.633221,0 1.145701,0.483753 1.145701,1.081479 0,0.597725 -0.51248,1.081477 -1.145701,1.081477 -3.788596,0 -6.868841,-2.907579 -6.868841,-6.483801 0,-3.193781 2.481905,-5.88861 5.760703,-6.392623 1.609884,-2.70243 4.671348,-4.417092 7.974294,-4.417092 3.302943,0 6.364409,1.714662 7.976974,4.412026 3.278799,0.504014 5.760701,3.201376 5.760701,6.395155 0,3.573691 -3.080243,6.483802 -6.868837,6.483802 z"
+     fill="#3688ff"
+     id="path3675"
+     style="fill:#49982e;fill-opacity:1;stroke-width:0.0260685" />
+  <path
+     d="m 44.675453,55.245996 c -0.292463,0 -0.584925,-0.106375 -0.810307,-0.316593 l -2.624111,-2.477014 -2.624113,2.477014 c -0.445401,0.422968 -1.172532,0.422968 -1.617933,0 -0.448084,-0.422966 -0.448084,-1.106805 0,-1.527237 l 3.43442,-3.241902 c 0.445402,-0.422967 1.172531,-0.422967 1.617933,0 l 3.434424,3.241902 c 0.448082,0.422964 0.448082,1.106804 0,1.527237 -0.225389,0.212752 -0.517851,0.316593 -0.810313,0.316593 z"
+     fill="#5f6379"
+     id="path3677"
+     style="fill:#49982e;fill-opacity:1;stroke-width:0.0260685" />
+  <path
+     d="m 41.24511,62.078947 c -0.633222,0 -1.145701,-0.483752 -1.145701,-1.081478 V 53.43472 c 0,-0.597723 0.512479,-1.081477 1.145701,-1.081477 0.633219,0 1.1457,0.483754 1.1457,1.081477 v 7.565282 c 0,0.595193 -0.512481,1.078945 -1.1457,1.078945 z"
+     fill="#5f6379"
+     id="path3679"
+     style="fill:#49982e;fill-opacity:1;stroke-width:0.0260685" />
+  <defs
+     id="defs2752">
+    <clipPath
+       id="clip0_1907_2277">
+      <rect
+         width="16"
+         height="16"
+         fill="white"
+         transform="translate(173 138)"
+         id="rect2749" />
+    </clipPath>
+  </defs>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#2b0000"
+     x="18.063999"
+     y="107.97926"
+     id="text430"><tspan
+       sodipodi:role="line"
+       id="tspan428"
+       x="18.063999"
+       y="107.97926"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.6667px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#24221c">Upload Files</tspan></text>
+</svg>
