@@ -1,0 +1,12 @@
+<svg width="240" height="177" viewBox="0 0 240 177" xmlns="http://www.w3.org/2000/svg">
+  <rect width="240" height="177" rx="12" fill="#F8E2F6"/>
+  <ellipse cx="42" cy="50" rx="24" ry="25" fill="white"/>
+  <rect x="30" y="40" width="12" height="12" rx="3" fill="#FF69B4"/>
+  <rect x="60" y="30" width="12" height="12" rx="3" fill="#FF69B4"/>
+  <rect x="60" y="50" width="12" height="12" rx="3" fill="#FF69B4"/>
+  <line x1="42" y1="50" x2="60" y2="36" stroke="#FF69B4" stroke-width="2"/>
+  <line x1="42" y1="50" x2="60" y2="54" stroke="#FF69B4" stroke-width="2"/>
+  <text x="120" y="155" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#24221c">
+    Smart Branching
+  </text>
+</svg>
