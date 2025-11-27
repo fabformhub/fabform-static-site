@@ -2,7 +2,7 @@
 <rss version="2.0">
   <channel>
     <!-- Channel metadata -->
-    <title>Fabform.io Blog & Updates</title>
+    <title>Fabform.io Blog &amp; Updates</title>
     <link>https://fabform.io</link>
     <description>Subscription-free, marketer-friendly form builder. Latest updates, guides, and conversion strategies.</description>
     <language>en-gb</language>
@@ -17,7 +17,7 @@
     <item>
       <title>Fabform.io Launches Subscription-Free Form Builder</title>
       <link>https://fabform.io/blog/subscription-free-form-builder</link>
-      <description>Escape subscription traps with Fabform.io — a flexible, marketer-friendly form builder.</description>
+      <description>Escape subscription traps with Fabform.io &amp; enjoy a flexible, marketer-friendly form builder.</description>
       <pubDate>Mon, 24 Nov 2025 10:00:00 GMT</pubDate>
       <guid>https://fabform.io/blog/subscription-free-form-builder</guid>
     </item>
@@ -33,7 +33,7 @@
     <item>
       <title>Fabform.io vs Typeform: A Conversion-Focused Alternative</title>
       <link>https://fabform.io/blog/fabform-vs-typeform</link>
-      <description>See why Fabform.io is the smarter choice for marketers who want control, branding, and better conversions.</description>
+      <description>See why Fabform.io is the smarter choice for marketers who want control, branding, &amp; better conversions.</description>
       <pubDate>Wed, 26 Nov 2025 09:15:00 GMT</pubDate>
       <guid>https://fabform.io/blog/fabform-vs-typeform</guid>
     </item>
@@ -41,7 +41,7 @@
     <item>
       <title>Boosting SEO with Fabform.io Forms</title>
       <link>https://fabform.io/blog/seo-friendly-forms</link>
-      <description>Discover how Fabform.io forms improve crawlability, metadata, and long-tail SEO performance.</description>
+      <description>Discover how Fabform.io forms improve crawlability, metadata, &amp; long-tail SEO performance.</description>
       <pubDate>Thu, 27 Nov 2025 08:45:00 GMT</pubDate>
       <guid>https://fabform.io/blog/seo-friendly-forms</guid>
     </item>
@@ -49,7 +49,7 @@
     <item>
       <title>Conversion Copywriting Tips for Fabform.io Users</title>
       <link>https://fabform.io/blog/conversion-copywriting-tips</link>
-      <description>Practical strategies to write punchy CTAs and form headlines that drive sign-ups.</description>
+      <description>Practical strategies to write punchy CTAs &amp; form headlines that drive sign-ups.</description>
       <pubDate>Fri, 28 Nov 2025 11:20:00 GMT</pubDate>
       <guid>https://fabform.io/blog/conversion-copywriting-tips</guid>
     </item>
@@ -57,7 +57,7 @@
     <item>
       <title>Fabform.io Integrations: Connect Your Workflow</title>
       <link>https://fabform.io/blog/integrations</link>
-      <description>Explore how Fabform.io integrates with Zapier, Slack, and email marketing tools.</description>
+      <description>Explore how Fabform.io integrates with Zapier, Slack, &amp; email marketing tools.</description>
       <pubDate>Sat, 29 Nov 2025 13:00:00 GMT</pubDate>
       <guid>https://fabform.io/blog/integrations</guid>
     </item>
@@ -65,15 +65,15 @@
     <item>
       <title>Why Marketers Choose Fabform.io Over Google Forms</title>
       <link>https://fabform.io/blog/google-forms-alternative</link>
-      <description>Break free from Google’s limitations with Fabform.io’s branding and conversion-first approach.</description>
+      <description>Break free from Google&apos;s limitations with Fabform.io&apos;s branding &amp; conversion-first approach.</description>
       <pubDate>Sun, 30 Nov 2025 09:00:00 GMT</pubDate>
       <guid>https://fabform.io/blog/google-forms-alternative</guid>
     </item>
 
     <item>
-      <title>Fabform.io Security & Privacy: Built for Independence</title>
+      <title>Fabform.io Security &amp; Privacy: Built for Independence</title>
       <link>https://fabform.io/blog/privacy-security</link>
-      <description>Understand how Fabform.io protects user data and supports digital independence.</description>
+      <description>Understand how Fabform.io protects user data &amp; supports digital independence.</description>
       <pubDate>Mon, 01 Dec 2025 12:00:00 GMT</pubDate>
       <guid>https://fabform.io/blog/privacy-security</guid>
     </item>
@@ -81,15 +81,15 @@
     <item>
       <title>Case Study: How Fabform.io Increased Conversions by 40%</title>
       <link>https://fabform.io/blog/case-study-conversions</link>
-      <description>See how a UK startup boosted conversions using Fabform.io’s flexible form builder.</description>
+      <description>See how a UK startup boosted conversions using Fabform.io&apos;s flexible form builder.</description>
       <pubDate>Tue, 02 Dec 2025 15:00:00 GMT</pubDate>
       <guid>https://fabform.io/blog/case-study-conversions</guid>
     </item>
 
     <item>
-      <title>Fabform.io Roadmap: What’s Next</title>
+      <title>Fabform.io Roadmap: What&apos;s Next</title>
       <link>https://fabform.io/blog/roadmap</link>
-      <description>Get a sneak peek at upcoming features, integrations, and improvements in Fabform.io.</description>
+      <description>Get a sneak peek at upcoming features, integrations, &amp; improvements in Fabform.io.</description>
       <pubDate>Wed, 03 Dec 2025 10:30:00 GMT</pubDate>
       <guid>https://fabform.io/blog/roadmap</guid>
     </item>
