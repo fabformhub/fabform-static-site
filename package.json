@@ -11,14 +11,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.12.3",
     "@astrojs/mdx": "^4.3.1",
     "@astrojs/preact": "^4.0.0",
     "@astrojs/rss": "^4.0.0",
     "@astrojs/sitemap": "^3.1.0",
     "@astrojs/tailwind": "^6.0.0",
-    "preact": "^10.17.1",
-    "inquirer": "^9.2.22"
+    "@astrolib/seo": "^1.0.0-beta.8",
+    "astro": "^5.12.3",
+    "inquirer": "^9.2.22",
+    "preact": "^10.17.1"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
@@ -27,4 +28,3 @@
     "tailwind-scrollbar-hide": "^1.1.7"
   }
 }
-
